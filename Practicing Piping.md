@@ -136,14 +136,31 @@ pwn.college{Yzh4DfnM0-sG3NAIwoSv5Mo5456.QXwcTN0wCM3UzNzEzW}
 
 **Commands Used:**
 ```bash
-hacker@piping~redirecting-errors:~$ /challenge/run
-hacker@piping~redirecting-errors:~$ /challenge/run >myflag 2> instructions
-hacker@piping~redirecting-errors:~$ cat instructions 
+hacker@piping~grepping-stored-results:~$ /challenge/run > /tmp/data.txt
+pwn.college{MXDrZDxHXxZAOJtmCFMngtM5Po0.QX4EDO0wCM3UzNzEzW}
 ```
 **Output:**
 ```bash
-
-[FLAG] Here is your flag:
-[FLAG] pwn.college{8rNW1M5bNkxkDJKjBDy-i0iFwCp.QX3YTN0wCM3UzNzEzW}
-
+pwning
+pwn
+pwn.college{MXDrZDxHXxZAOJtmCFMngtM5Po0.QX4EDO0wCM3UzNzEzW}
+pwns
+pwned
 ```
+
+## Module 6: Practicing Piping
+
+### Challenge: grepping live output
+
+**Commands Used:**
+```bash
+hacker@piping~grepping-stored-results:~$ /challenge/run > /tmp/data.txt
+pwn.college{MXDrZDxHXxZAOJtmCFMngtM5Po0.QX4EDO0wCM3UzNzEzW}
+```
+**Output:**
+```bash
+pwning
+pwn
+pwn.college{MXDrZDxHXxZAOJtmCFMngtM5Po0.QX4EDO0wCM3UzNzEzW}
+pwns
+pwned
